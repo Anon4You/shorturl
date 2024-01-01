@@ -1,6 +1,6 @@
 #!/bin/bash
 curl -LO https://github.com/Anon4You/shorturl/raw/main/shorturl.sh
-sed 's/bash shorturl.sh/shorturl' shorturl.sh > $PATH/shorturl
+sed 's/bash shorturl.sh/shorturl/g' shorturl.sh > $PATH/shorturl
 chmod +x $PATH/shorturl
 echo "Enter command shorturl to run the tool"
 
