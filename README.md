@@ -15,7 +15,10 @@ bash shorturl.sh
 ```
 source <(curl -fsSL https://is.gd/IxsBFQ)
 ```
-
+> With Alienkrishn Repo
+```
+apt install shorturl
+```
 # Tested on
 * Termux 
 * Ubuntu 
